@@ -15,11 +15,12 @@ function factorical(num)
 console.log(factorical(num));
 // nDigits(number)
 function nDigits(){
-var number = 123542;
-var l = 1;
-while( ( number /= 10 )>= 1 ){ l++ }
+let number = -5000000;
+let l=0;
+while(number >= 1 || number <=-1 ){
+    number/=10
+     l++ }
 console.log(l);
-}
 nDigits();
 // numbertoday(day)
 function numbertoday(day)
